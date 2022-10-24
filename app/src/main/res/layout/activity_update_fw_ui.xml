@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UpdateFwUIActivity" 
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_gravity="center_horizontal"
+    	android:gravity="center_horizontal"
+    	android:weightSum="1">
+        
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/smartbox_aml_ver2" 
+            android:contentDescription="@string/desc"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical">
+        </ImageView>
+        
+        <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:paddingBottom="10dp" 
+	        android:layout_weight="0.5"
+	        android:layout_gravity="center_vertical">
+	        
+	        <TextView
+	            android:id="@+id/txt_device"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="8dp"
+	            android:text="@string/device_name"
+	            android:textSize="14sp" />
+	
+	        <TextView
+	            android:id="@+id/device"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/txt_device"
+	            android:layout_marginTop="3dp"
+	            android:textSize="12sp"
+	            android:textStyle="bold" />
+	
+	        <TextView
+	            android:id="@+id/txt1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/device"
+	            android:layout_marginTop="3dp"
+	            android:text="@string/phien_ban_hien_tai_2"
+	            android:textSize="14sp" />
+	
+	        <TextView
+	            android:id="@+id/currentversion"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/txt1"
+	            android:layout_marginTop="3dp"
+	            android:textSize="12sp"
+	            android:textStyle="bold" />
+	
+	        <TextView
+	            android:id="@+id/txt2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/currentversion"
+	            android:layout_marginTop="3dp"
+	            android:text="@string/ngay_cap_nhat_2"
+	            android:textSize="14sp" />
+	
+	        <TextView
+	            android:id="@+id/tvdateupdate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/txt2"
+	            android:layout_marginTop="3dp"
+	            android:textSize="12sp"
+	            android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+	
+	<Button
+		android:id="@+id/btnupdatefw"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="40dp"
+		android:layout_marginRight="40dp"
+		android:padding="5dp"
+		android:text="@string/cap_nhat_fw"
+		android:layout_gravity="center_horizontal"
+		android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VnptOta</string>
+    <string name="update_url"></string>
+    <string name="what_new_title">Cập nhật mới?</string>
+    <string name="btn_download_title">Tải về</string>
+    <string name="btn_upgrade_title">Nâng cấp</string>
+     <string name="btn_pause_title">Dừng</string>
+    <string name="tv_release_date_title">Ngày phát hành:</string>
+    <string name="tv_firmware_size_title">Kích thước:</string>
+    <string name="progress_bar_wait">Đang kiểm tra file ...</string>
+    <string name="dialog_btn_ok">Đồng ý</string>
+    <string name="dialog_btn_cancel">Hủy bỏ</string>
+    <string name="dialog_btn_download_again">Tải lại</string>
+    <string name="dialog_upgrade_tile">Nâng cấp</string>
+    <string name="dialog_upgrade_content">Nâng cấp phần mềm hệ thống</string>
+    <string name="dialog_error_tile">Lỗi</string>
+    <string name="dialog_pause_tile">Thông báo</string>
+    <string name="new_version_detected">Có phiên bản phần mềm hệ thống mới</string>
+    <string name="notification_download_complete_title">Đã tải xong phần mềm hệ thống</string>
+    <string name="notification_download_complete_context">Chạm vào đây để vào ứng dụng</string>
+    <string name="unknown_per">Không xác định</string>
+    <string name="file_note_valid">File không hợp lệ</string>
+    <string name="download_error_create_folder">Lỗi khi tạo thư mục chứa phần mềm hệ thống</string>
+    <string name="download_error_network_not_connected">Mạng không kết nối</string>
+    <string name="download_error_range_not_satisfiable">Http request range not satisfiable</string>
+    <string name="download_error_open_connection">Không thể mở kết nối tới server</string>
+    <string name="download_error_connect_to_resource">Không tìm thấy tài nguyên trên server</string>
+    <string name="download_error_file_stream">Lỗi trong quá trình tải file. Vui lòng kiểm tra lại kết nối mạng. Sau đó bấm nút Tải về để thử lại.</string>
+    <string name="download_pause_file_stream">Quá trình bị tạm dừng.Vui lòng bấm nút Tải về để tiếp tục!</string>
+    <string name="download_error_size_not_match">Kích thước file không chính xác</string>
+    <string name="unknown_error">Lỗi không xác định</string>
+    <string name="alert_have_firmware_title">Nâng cấp phiên bản mới</string>
+    <string name="alert_upgrade_successfully_title">Thông báo</string>
+    <string name="alert_upgrade_successfully_content">Cập nhật phiên bản hệ thống mới thành công</string>
+    <string name="alert_upgrade_faild_title">Thông báo</string>
+    <string name="alert_upgrade_faild_content">Cập nhật phiên bản hệ thống mới bị lỗi</string>
+    <string name="get_info_error_client_protocol">Lỗi - client protocol</string>
+    <string name="get_info_error_parser_xml">Lỗi khi phân tích file xml</string>
+    <string name="get_info_error_no_xml">Không tìm thấy file xml</string>
+    <string name="get_info_error_get_rom_info">Không lấy được thông tin phần mềm hệ thống</string>
+    <string name="get_info_error_no_firmware">Không có phần mềm hệ thống mới</string>
+    <!-- nctmanh: 05082015 - allow check new ota fw in mobile data connection  -->
+    <string name="alert_title_warning">Cảnh báo!</string>
+    <string name="alert_btn_continue">Tiếp tục</string>
+    <string name="alert_btn_later">Để sau</string>
+    <string name="download_fw_in_data_connection_mode">Bạn đang sử dụng dữ liệu di động. Việc cập nhật phần mềm hệ thống lúc này có thể gây tốn chi phí. Bạn có muốn tiếp tục tải Firmware?</string>
+    <string name="alert_have_firmware_content">Đã có phần mềm hệ thống mới.Vui lòng cập nhật!</string>
+    <!-- nctmanh: 05122015 - add for vnpt ota client -->
+    <string name="main_device_info">Thông tin về thiết bị</string>
+    <string name="main_device">Thiết bị</string>
+    <string name="main_rom">Phần mềm hệ thống</string>
+    <string name="main_otaid">Phiên bản ứng dụng</string>
+    <string name="main_updates">Cập nhật</string>
+    <string name="main_avail_updates">Trạng thái phiên bản mới</string>
+    <string name="main_updates_none">Không có phiên bản mới</string>
+    
+    <string name="title_activity_update_fw_ui">Kiểm tra cập nhật hệ thống</string>
+    <string name="cap_nhat_fw">Kiểm tra cập nhật hệ thống</string>
+    <string name="phien_ban_hien_tai_2">Phiên bản hiện tại:</string>
+    <string name="ngay_cap_nhat_2">Ngày cập nhật:</string>
+    <string name="desc">Smartbox AML v2</string>
+    <string name="circle_dialog_wait">Kiểm tra phiên bản mới...</string>
+    <string name="dialog_no_internet">Mạng không kết nối</string>
+    <string name="dialog_warning_title">Cảnh báo</string>
+    <string name="dialog_btn_settings">Mở mạng</string>
+    <string name="dialog_no_firmware">Hiện không có phần mềm mới</string>
+	
+    <string name="downloading_fw_basic">Đang tải tập tin Basic...</string>
+	<string name="downloading_fw_delta">Đang tải tập tin Delta...</string>
+	<string name="download_Completed">Đã tải xong!</string>
+	<!-- nctmanh: 11012017 - notifiy continue update for new ota flow -->
+	<string name="alert_upgrade_part_content">Cập nhật hệ thống chưa hoàn thiện. Hãy tiếp tục cập nhật phần mềm hệ thống lần nữa.</string>
+	<string name="dialog_btn_continue_upgrade">Tiếp tục</string>
+    <string name="notif_text_rom">Đã có phiên bản ROM mới</string>
+    <string name="notif_source">Trình nâng cấp VNPT</string>
+    
+    <string name="alert_nodata_title">Không có kết nối mạng</string>
+    <string name="alert_nodata_message">Không có kết nối mạng \n Xin hãy bật Wi-fi</string>
+    <string name="alert_nowifi_title">Không có kết nối Wi-fi</string>
+    <string name="alert_nowifi_message">Không có kết nối mạng \n Xin hãy bật Wi-fi</string>
+    <string name="alert_wifi_settings">Thiết lập Wi-fi</string>
+    <string name="alert_ignore">Bỏ qua</string>
+    <string name="alert_options_title">Lựa chọn</string>
+    <string name="alert_exit">Thoát</string>
+    <string name="alert_cancel">Hủy bỏ</string>
+    <string name="alert_continue">Tiếp tục</string>
+    <string name="alert_rename">Đổi tên</string>
+    <string name="alert_rename_title">Đổi tên file</string>
+    <string name="alert_rename_message">Nhập tên file mới</string>
+    
+    <string name="alert_install_title">Cài đặt file ZIP</string>
+    <string name="alert_install">Cài đặt</string>
+    <string name="alert_install_message">Đang cài file.Hệ thống sẽ truy nhập vào chế độ khôi phục và cài đăt ZIP file. Sau khi cài đăt, hệ thống sẽ tự động khởi động lại. Xin đừng tắt máy trong khi cài đặt</string>
+    <string name="alert_noinstall_message">ROMs trên máy cần cài đặt bằng tay\n Xin hãy cài đặt ROM\n ROM hiện đang nằm ở %1$s</string>
+    <string name="alert_update_title">Đã có phiên bản ROM mới</string>
+    
+    <string name="alert_download">Tải về</string>
+    <string name="alert_downloading">Rom đang được tải. Xin hãy chờ!</string>   
+    <string name="alert_unsupported_title">Bản ROM này không được hỗ trợ</string>
+    <string name="alert_unsupported_message">Nhà phát triên không hỗ trợ phiên bản nâng cấp OTA này! Xin hãy liên lạc với chúng tôi để được hỗ trợ</string>
+    <string name="alert_update_to">Đã có phiên bản ROM mới (%1$s). Bạn có muốn tải về không?</string>
+    <string name="alert_prune_title">Xóa file cũ</string>
+    
+    <string name="menu_view">Xem các ROMs đã tải về</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_settings">Thiết lập</string>
+    <string name="menu_refresh">Tải phiên bản ROM mới nhất</string>
+    <string name="menu_prune">Xóa file cũ</string>
+    <string name="menu_exit">Thoát</string>
+    
+    <string name="toast_delete">Xóa file thành công</string>
+    <string name="toast_delete_error">Xảy ra lỗi trong khi xóa file</string>
+    <string name="toast_rename">Đổi tên file thành công</string>
+    <string name="toast_rename_error">Xảy ra lỗi trong khi đổi tên file</string>
+    <string name="toast_prune">File đã được xóa thành công</string>
+    <string name="toast_prune_error">Xảy ra lỗi trong khi xóa file</string>
+    <string name="toast_no_updates">Hiện không có phiên bản nâng cấp mới</string>
+    <string name="toast_fetch_error">Xảy ra lỗi trong khi lấy thông tin về phiên bản OTA</string>
+    <string name="toast_download_nospace">Không đủ bộ nhớ để tải ROM về</string>
+    <string name="toast_download_interrupted">Tải về bị ngắt</string>
+    <string name="toast_download_md5_mismatch">MD5 không trùng khớp</string>
+    <string name="toast_download_error">Xảy ra lỗi khi tải về</string>
+    <string name="toast_nosd_shared">Thẻ nhớ của bạn hiện không có. Xin hãy sao chép ra bộ nhớ USB</string>
+    <string name="toast_nosd_error">Thẻ nhớ hiện không có</string>
+    <string name="toast_no_download_files">Không có file tải về</string>
+    
+    <string name="about_title">Giới thiệu</string>
+    <string name="about_ota_title">Trình cập nhật OTA</string>
+    <string name="about_ota_summary">Trình cập nhật VNPT</string>
+    <string name="about_version_title">Phiên bản phần mềm</string>
+    <string name="about_version_unknown">Phiên bản không xác định</string>
+    
+    <string name="main_version">ROM Date</string>
+    <string name="main_updates_error">Xảy ra lỗi khi lấy thông tin phiên bản cập nhật: %1$s</string>
+    <string name="main_updates_new">Phiên bản nâng cấp mới: %1$s</string>
+    
+    <string name="contributors_title">VNPT Technology</string>
+    <string name="contributors_error">contributors error</string>
+    
+    <string name="license_title">Licenses</string>
+    <string name="license_apache_title">VNPT License</string>
+    <string name="license_error">Lỗi khi lấy thông tin License</string>
+    
+    <string name="settings_notification">Thiết lập cảnh báo</string>
+    <string name="display_notification">Hiện thị cảnh báo</string>
+    <string name="notify_default">Cảnh báo đang bật</string>
+    <string name="notify_false">Cảnh báo đang tắt</string>
+    
+    <string name="ota_link">Đường dẫn tới file nâng cấp</string>
+    <string name="ota_modify_accept">Đồng ý</string>
+    <string name="ota_modify_cancel">Hủy</string>
+    <string name="ota_modify_link">Thay đổi đường dẫn url</string>
+    <string name="ota_modify_success">Nấng cấp phiên bản mới</string>
+	<string name="circleDialog_wait">Hệ thống đang xử lý. Điều này có thể mất vài phút. Xin chờ...   </string>
+	<string name="downloading_ROM">Đang tải bản ROM mới: </string>
+	<string name="title_activity_desc_rom">Mô tả ROM</string>
+    <string name="RomVersion">Phiên bản ROM</string>
+	<string name="descriptionRom">Mô tả</string>
+	<string name="have_new_rom">Hiện tại có bản ROM mới (%1$s).Bạn có muốn cập nhật không?</string>
+	<string name="getting_error">Lỗi khi kiểm tra phiên bản ROM mới</string>
+	<string name="menu_usbupdate">Cập nhật qua USB</string>
+	<string name="usbupdate_title">Cập nhật qua USB</string>
+	<string name="usbupdate_approve">Bạn có muốn cập nhật hệ thống bằng USB hay không?</string>
+	<string name="usbupdate_accept">Đồng ý</string>
+	<string name="usbupdate_cancel">Hủy</string>
+	<string name="usbupdate">Cập nhật từ usb</string>
+	<string name="update_online">cập nhật Online</string>
+	<string name="file_not_exist">Không tồn tại tệp đã chọn</string>
+	<string name="wait_for_network">Đang chờ thiết lập mạng…</string>
+	<string name="wait_for_booting_subsystem">Đang chờ thiết lập hệ thống…</string>
+    <string name="wait_for_upgrading_system">Hệ thống đang tiến hành cập nhật phần mềm. Vui lòng không tắt điện!</string>
+    <string name="device_name">Thiết bị:</string>
+    <string name="message_no_internet">Mạng không kết nối. Vui lòng kiểm tra lại mạng.</string>
+
+    <!-- KHAICUCAI add  -->
+    <string name="alert_download_firmware_done_title">Quá trình tải phiên bản mới</string>
+    <string name="alert_download_firmware_done_content">Phiên bản mới đã tải hoàn thành. Vui lòng tiến hành cập nhật!</string>
+</resources>
